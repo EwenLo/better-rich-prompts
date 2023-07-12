@@ -1,4 +1,4 @@
-[![Supported Python Versions](https://img.shields.io/pypi/pyversions/better-rich-prompts/0.0.1)](https://pypi.org/project/better-rich-prompts/) [![PyPI version](https://badge.fury.io/py/better-rich-prompts.svg)](https://badge.fury.io/py/better-rich-prompts)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/better-rich-prompts/1.0.0)](https://pypi.org/project/better-rich-prompts/) [![PyPI version](https://badge.fury.io/py/better-rich-prompts.svg)](https://badge.fury.io/py/better-rich-prompts)
 
 [![Downloads](https://pepy.tech/badge/better-rich-prompts/month)](https://pepy.tech/project/better-rich-prompts)
 
@@ -29,7 +29,7 @@ choices = [
 ]
 ListPrompt.ask("Select a language", choices, choice_key="name")
 ```
-![ListPrompt Example](https://github.com/EwenLo/better-rich-prompts/raw/master/imgs/list_prompt_ex1.png)
+![ListPrompt Example](https://raw.githubusercontent.com/EwenLo/better-rich-prompts/main/imgs/dict_prompt_ex1.png)
 
 ### Example 2 - Using list of strings
 ```python
@@ -38,7 +38,7 @@ from better_rich_prompts.prompt import ListPrompt
 choices = ["en", "es", "fr"]
 ListPrompt.ask("Select a language", choices,default="en")
 ```
-![ListPrompt Example](https://github.com/EwenLo/better-rich-prompts/raw/master/imgs/list_prompt_ex2.png)
+![ListPrompt Example](https://raw.githubusercontent.com/EwenLo/better-rich-prompts/main/imgs/list_prompt_ex2.png)
 
 ### Example 3 - Using list of custom objects
 ```python
@@ -59,7 +59,7 @@ ListPrompt.ask(
     "Select a language", choices, default="en", choice_key=lambda c: c.code
 )
 ```
-![ListPrompt Example](https://github.com/EwenLo/better-rich-prompts/raw/master/imgs/list_prompt_ex3.png)
+![ListPrompt Example](https://raw.githubusercontent.com/EwenLo/better-rich-prompts/main/imgs/list_prompt_ex3.png)
 
 ## Using Dict Prompt
 ```python
@@ -68,4 +68,4 @@ from better_rich_prompts.prompt import DictPrompt
 choices = {"en":"english","es":"spanish","fr":"french"}
 DictPrompt.ask("Select a language", choices)
 ```
-![ListPrompt Example](https://github.com/EwenLo/better-rich-prompts/raw/master/imgs/dict_prompt_ex1.png)
+![ListPrompt Example](https://raw.githubusercontent.com/EwenLo/better-rich-prompts/main/imgs/dict_prompt_ex1.png)
