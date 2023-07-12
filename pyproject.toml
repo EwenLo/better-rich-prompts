@@ -2,7 +2,7 @@
 name = "better-rich-prompts"
 homepage = "https://github.com/EwenLo/better-rich-prompts"
 documentation = "https://github.com/EwenLo/better-rich-prompts/"
-version = "1.0.0"
+version = "1.0.2"
 description = "Improved prompts for rich."
 authors = ["Ewen Lorimer <ewen@ewenlorimer.ca>"]
 license = "MIT"
